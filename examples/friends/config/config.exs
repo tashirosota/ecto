@@ -4,7 +4,9 @@ use Mix.Config
 
 config :friends, Friends.Repo,
   database: "friends_repo",
-  hostname: "localhost"
+  hostname: "localhost",
+  password: "root",
+  username: "root"
 
 config :friends, ecto_repos: [Friends.Repo]
 
